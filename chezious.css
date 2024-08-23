@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .navbar{
+    background-color: #FFCB04;
+    height: 90px;
+    width: 0 auto;
+    position: relative;
+ }
+ .location{
+    font-size: 40px;
+    margin-left: 200px;
+    padding-top: 20px;
+    color: red;
+ }
+ .text{
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -30px;
+ }
+ .img{
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    position: absolute;
+    bottom: 0px;
+    left: 1000px;
+ }
+ .icons{
+    position: absolute;
+    left: 1600px;
+    font-size: 35px;
+    bottom: 25px;
+    gap: 30px;
+    color: red;
+ }
+ .tabs{
+    background-color: orange;
+    height: 50px;
+    width: 110px;
+    border-radius: 30px;
+    position: absolute;
+    left: 150px;
+    margin-top: 50px;
+ }
+ .code{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 25px;
+}
+.tab2{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 170px;
+    border-radius: 30px;
+    position: absolute;
+    left: 150px;
+}
+.code2{
+    position: absolute;
+    left: 12px;
+    font-size: 22px;
+    top: 12px;
+}
+.code2:hover{
+    background-color: orange;
+}
+.tab3{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 170px;
+    border-radius: 30px;
+    position: absolute;
+    left: 350px;
+}
+.code3{
+    position: absolute;
+    left: 23px;
+    font-size: 22px;
+    top: 12px;
+}
+.code3:hover{
+    background-color: orange;
+}
+.tab4{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    position: absolute;
+    left: 550px;
+}
+.code4{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 8px;
+}
+.code4:hover{
+    background-color: orange;
+}
+.tab5{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 250px;
+    border-radius: 30px;
+    position: absolute;
+    left: 730px;
+}
+.code5{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 8px;
+}
+.code5:hover{
+    background-color: orange;
+}
+.tab6{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    position: absolute;
+    left: 1010px;
+}
+.code6{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 8px;
+}
+.code6:hover{
+    background-color: orange;
+}
+.tab7{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 235px;
+    border-radius: 30px;
+    position: absolute;
+    left: 1220px;
+}
+.code7{
+    position: absolute;
+    left: 30px;
+    font-size: 25px;
+    top: 8px;
+}
+.code7:hover{
+    background-color: orange;
+}
+.tab8{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    position: absolute;
+    left: 1480px;
+}
+.code8{
+    position: absolute;
+    left: 30px;
+    font-size: 25px;
+    top: 8px;
+}
+.code8:hover{
+    background-color: orange;
+}
+.tab9{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    position: absolute;
+    left: 1600px;
+}
+.code9{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 80px;
+}
+.code9:hover{
+    background-color: orange;
+}
+.tab10{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    position: absolute;
+    left: 690px;
+}
+.code10{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 8px;
+}
+.code10:hover{
+    background-color: orange;
+}
+.tab11{
+    background-color: #E5E5E5;
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    position: absolute;
+    left: 860px;
+}
+.code11{
+    position: absolute;
+    left: 20px;
+    font-size: 25px;
+    top: 8px;
+}
+.code11:hover{
+    background-color: orange;
+}
+.parents{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+    border: 3px solid black;
+    position: relative;
+}
+.card:hover{
+    border-color: #FFCB04;
+}
+.card img{
+    padding: 10px 0px 10px 10px;
+    border-radius: 20px;
+}
+.cart{
+    background-color: red;
+    position: absolute;
+    height: 50px;
+    width: 130px;
+    left: 65px;
+    bottom: 15px;
+    border-radius: 30px;
+}
+.abu{
+    display: flex;
+}
+.abu2{
+    display: flex;
+}
+.abu3{
+    display: flex;
+}
+.abu4{
+    display: flex;
+}
+.abu5{
+   display: flex;
+}.abu6{
+    display: flex;
+}
+.abu7{
+    display: flex;
+}.abu8{
+    display: flex;
+}
+.abu9{
+    display: flex;
+}
+.abu10{
+    display: flex;
+}
+.yellow{
+    background-color: yellow;
+    height: 600px;
+    width: 1500px;
+}
+.brown1{
+    background-color: brown;
+    height: 50px;
+    width: 1300px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid #A98703;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: sans-serif;
+    color: white;
+}
+.brown2{
+    background-color: brown;
+    height: 50px;
+    width: 1300px;
+    margin-top: px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid #A98703;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: sans-serif;
+    color: white;
+}
+.brown3{
+    background-color: brown;
+    height: 50px;
+    width: 1300px;
+    margin-top: px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid #A98703;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: sans-serif;
+    color: white;
+}
+.brown4{
+    background-color: brown;
+    height: 50px;
+    width: 1300px;
+    margin-top: px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid #A98703;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: sans-serif;
+    color: white;
+}
+.brown5{
+    background-color: brown;
+    height: 50px;
+    width: 1300px;
+    margin-top: px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid #A98703;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: sans-serif;
+    color: white;
+}
+.brown6{
+    background-color: brown;
+    height: 50px;
+    width: 1300px;
+    margin-top: 0px;
+    margin-left: 100px;
+    border-radius: 10px;
+    border: 2px solid #A98703;
+    padding-left: 40px;
+    font-size: 30px;
+    padding-top: 8px;
+    font-family: sans-serif;
+    color: white;
+} 
+

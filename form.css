@@ -1,0 +1,19 @@
+.main{
+    background-color: rgb(249, 249, 249);
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+}
+.type{
+    border-radius: 20px;
+    height: 20px;
+    width: 200px;
+    color: blue;
+    text-align: center;
+}
